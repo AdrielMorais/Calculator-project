@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+div#container{
+    padding: 10px;
+    background-color: rgb(120, 139, 139);
+    width: 20%;
+}
+
+div#simb{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+input{
+    outline: none;
+    border: 0;
+    margin: 0.5px;
+    
+}
+
+
+input#igual{
+    
+    background-color: rgb(64, 132, 134);
+    
+}
+
+input#igual:hover, input:hover{
+    background-color: rgb(158, 185, 185);
+    transition-duration: 0.4s;
+    
+}
+
